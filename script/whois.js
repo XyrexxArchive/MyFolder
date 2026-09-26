@@ -1,6 +1,6 @@
 const net = require('net');
 
-const TARGET = '';
+const TARGET = ''; //isi ip atau domain yang mau di whois
 
 const IPV4_RE = /^(\d{1,3}\.){3}\d{1,3}$/;
 const IPV6_RE = /^([0-9a-fA-F]{0,4}:){2,7}[0-9a-fA-F]{0,4}$/;
